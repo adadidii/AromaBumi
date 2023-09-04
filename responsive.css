@@ -1,0 +1,7 @@
+@media only screen and (max-width: 480px) {
+  .header-container {
+    width: 360px;
+    height: 478px;
+    background-size: cover;
+  }
+}
