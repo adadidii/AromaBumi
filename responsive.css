@@ -105,7 +105,72 @@
   }
 
   /** About Section **/
+
+  /** Wrapper 1 **/
   .about-wrapper1 {
-    display: block;
+    flex-direction: column;
+  }
+
+  .wrapper1-image {
+    width: 319.254px;
+    height: 212.836px;
+    margin: 40px 0 0 40px;
+  }
+
+  .wrapper1-image img {
+    object-fit: contain;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .textarea1-title,
+  .textarea1-rectangle,
+  .textarea1-text {
+    margin: 10px 0 0 41px;
+    width: 253px;
+    height: auto;
+  }
+
+  .textarea1-title h2 {
+    font-size: 20px;
+  }
+
+  .textarea1-rectangle {
+    width: 118px;
+    height: 3px;
+  }
+
+  .textarea1-text p {
+    font-size: 12px;
+  }
+
+  /** Wrapper 2 **/
+  .about-wrapper2 {
+    flex-direction: column;
+  }
+
+  .wrapper2-textarea {
+    margin: 0;
+  }
+
+  .textarea2-title,
+  .textarea2-rectangle,
+  .textarea2-text {
+    margin: 10px 0 0 41px;
+    width: 253px;
+    height: auto;
+  }
+
+  .textarea2-title h2 {
+    font-size: 20px;
+  }
+
+  .textarea2-rectangle {
+    width: 118px;
+    height: 3px;
+  }
+
+  .textarea2-text p {
+    font-size: 12px;
   }
 }
