@@ -1,7 +1,8 @@
 @media only screen and (max-width: 480px) {
   .header-container {
     position: relative;
-    width: 375px;
+    width: 100%;
+    max-width: 480px;
     height: 478px;
     background-size: cover;
   }
@@ -45,7 +46,8 @@
   /** Footer **/
 
   .footer-container {
-    width: 375px;
+    width: 100%;
+    max-width: 480px;
     height: 362px;
     display: block;
   }
@@ -146,7 +148,7 @@
 
   /** Wrapper 2 **/
   .about-wrapper2 {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .wrapper2-textarea {
@@ -172,5 +174,25 @@
 
   .textarea2-text p {
     font-size: 12px;
+  }
+
+  .wrapper2-image {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .wrapper2-image img {
+    width: 155px;
+    height: 232.731px;
+    flex-shrink: 0;
+    object-fit: inherit;
+  }
+
+  .textarea2-button button {
+    width: 135px;
+    height: 28px;
+    font-size: 10px;
+    margin: 28px 0 0 40px;
+    padding: 0;
   }
 }
