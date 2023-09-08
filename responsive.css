@@ -117,12 +117,16 @@
     width: 319.254px;
     height: 212.836px;
     margin: 40px 0 0 40px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #fff;
   }
 
   .wrapper1-image img {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     border-radius: 20px;
-    padding: 10px;
   }
 
   .textarea1-title,
@@ -149,6 +153,15 @@
   /** Wrapper 2 **/
   .about-wrapper2 {
     flex-direction: column-reverse;
+  }
+
+  .wrapper2-image {
+    height: 232.731px;
+    flex-shrink: 0;
+  }
+
+  .wrapper2-image img {
+    object-fit: contain;
   }
 
   .wrapper2-textarea {
@@ -185,14 +198,181 @@
     width: 155px;
     height: 232.731px;
     flex-shrink: 0;
-    object-fit: inherit;
   }
 
   .textarea2-button button {
     width: 135px;
     height: 28px;
     font-size: 10px;
-    margin: 28px 0 0 40px;
+    margin: 10px 0 0 40px;
     padding: 0;
+  }
+
+  /** Wrapper 3 **/
+  .about-wrapper3 {
+    flex-direction: column;
+  }
+
+  .wrapper3-image {
+    width: 319.254px;
+    height: 212.836px;
+    margin: 40px 0 0 20px;
+  }
+
+  .wrapper3-image img {
+    object-fit: contain;
+  }
+
+  .textarea3-title,
+  .textarea3-rectangle,
+  .textarea3-text {
+    margin: 10px 0 0 41px;
+    width: 253px;
+    height: auto;
+  }
+
+  .textarea3-title h2 {
+    font-size: 20px;
+  }
+
+  .textarea3-rectangle {
+    width: 118px;
+    height: 3px;
+  }
+
+  .textarea3-text p {
+    font-size: 12px;
+  }
+
+  .textarea3-button button {
+    width: 135px;
+    height: 28px;
+    font-size: 10px;
+    margin: 10px 0 0 40px;
+    padding: 0;
+  }
+
+  .wrapper3-textarea {
+    margin: 20px 0 0 0px;
+  }
+
+  /* Gallery Section */
+  .gallery-title h2,
+  .gallery-title span {
+    font-size: 20px;
+  }
+
+  /* NavBar */
+
+  .navbar-container {
+    width: 100%;
+    max-width: 480px;
+    display: block;
+  }
+
+  .navbar-logo {
+    margin: 0;
+    padding: 20px 0 0 40px;
+  }
+
+  .navbar-logo img {
+    width: 135px;
+    height: 27px;
+  }
+
+  .navbar-links {
+    margin: 30px 0 0 54px;
+  }
+
+  .navbar-links li {
+    font-size: 14px;
+    padding-right: 70px;
+  }
+
+  /* helpform */
+
+  .helpform {
+    height: auto;
+  }
+
+  .helpform-container {
+    margin-bottom: 50px;
+  }
+
+  .helpform-title {
+    margin: 40px 0 0 40px;
+  }
+
+  .helpform-title h2 {
+    font-size: 20px;
+  }
+
+  .helpform-form {
+    width: 385px;
+    height: 470px;
+    font-size: 12px;
+    margin: 20px 0 0 40px;
+  }
+
+  .form-name,
+  .form-email,
+  .form-phone,
+  .form-subject,
+  .form-message {
+    padding: 0px;
+    margin-left: 21px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-name {
+    margin-top: 20px;
+  }
+
+  .form-name input,
+  .form-email input,
+  .form-phone input,
+  .form-subject input {
+    width: 330px;
+    height: 23px;
+    border-radius: 5px;
+    margin-left: 0;
+    margin: 10px 0 10px 0;
+  }
+
+  .form-name input[type="text"],
+  .form-email input[type="email"],
+  .form-phone input[type="number"],
+  .form-subject input[type="text"] {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+
+  .form-name ::placeholder,
+  .form-email ::placeholder,
+  .form-phone ::placeholder,
+  .form-subject ::placeholder {
+    font-size: 10px;
+    font-size: 10px;
+    padding-left: 1px;
+  }
+
+  .form-message textarea {
+    width: 330px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding: 10px 10px 10px 10px;
+    font-size: 10px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .helpform-form button {
+    width: 135px;
+    height: 28px;
+    font-size: 10px;
+    position: absolute;
+    left: 125px;
+    top: 430px;
   }
 }
