@@ -387,4 +387,82 @@
   .location-maps {
     display: block;
   }
+
+  /* Menu Section */
+
+  .menu-container {
+    width: 100%;
+    height: auto;
+    max-width: 480px;
+  }
+
+  .menu-title {
+    width: 100%;
+    max-width: 480px;
+    margin-top: 40px;
+  }
+
+  .menu-title h2 {
+    font-size: 20px;
+  }
+
+  .menu-title p {
+    font-size: 12px;
+  }
+
+  .menu-all {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .menu-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .menu-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .menu-box1,
+.menu-box2,
+.menu-box3,
+.menu-box4,
+.menu-box5,
+.menu-box6 {
+  width: 155px;
+  height: 155px;
+}
+
+  .menu-box1 h4,
+  .menu-box2 h4,
+  .menu-box3 h4,
+  .menu-box4 h4,
+  .menu-box5 h4,
+  .menu-box6 h4 {
+    font-size: 12px;
+  }
+
+  .menu-box1 p,
+  .menu-box2 p,
+  .menu-box3 p,
+  .menu-box4 p,
+  .menu-box5 p,
+  .menu-box6 p {
+    font-size: 12px;
+  }
+
+  .menu-box1 img,
+  .menu-box2 img,
+  .menu-box3 img,
+  .menu-box4 img,
+  .menu-box5 img,
+  .menu-box6 img {
+    width: 120px;
+    height: 90px;
+  }
 }
