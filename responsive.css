@@ -428,11 +428,9 @@
   }
 
   .location-maps {
-    max-width: 480px;
-    top: 0;
-    bottom: 0;
-    left: 50px;
-    right: 0;
+    position: relative;
+    left: 45px;
+    top: 75px;
     height: 300px;
   }
 
@@ -442,7 +440,7 @@
   }
 
   .location-title {
-    margin: 20px 0 0 50px;
+    margin: 100px 0 0 50px;
   }
 
 
@@ -452,6 +450,28 @@
 
   .location-title p {
     font-size: 12px;
+  }
+
+  .location-box1,
+  .location-box2,
+  .location-box3 {
+    width: 280px;
+    height: 111px;
+    margin-left: 45px;
+  }
+
+  .location-box1 h3,
+  .location-box2 h3,
+  .location-box3 h3 {
+    font-size: 16px;
+    padding-left: 35px;
+  }
+
+  .location-box1 p,
+  .location-box2 p,
+  .location-box3 p {
+    font-size: 12px;
+    padding: 10px 30px 10px 35px;
   }
 
   /* Menu Section */
