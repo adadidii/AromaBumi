@@ -263,6 +263,47 @@
     font-size: 20px;
   }
 
+  .gallery-wrapper1 img, .gallery-wrapper2 img {
+    width: 71.33px;
+    height: 71.33px;
+    flex-shrink: 0;
+    padding-right: 33px;
+  }
+
+  .gallery-wrapper1 {
+    margin-bottom: 10px;
+  }
+
+  .gallery-wrapper2 {
+    margin-top: 10px;
+  }
+
+  /*Message Section*/
+
+  .message-wrapper {
+    width: 100%;
+    height: auto;
+    max-width: 480px;
+  }
+  .message-wrapper h2 {
+    font-size: 20px;
+  }
+
+  .message-wrapper p {
+    font-size: 12px;
+    padding: 20px 75px 20px 75px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .message-wrapper button {
+    width: 135px;
+    height: 28px;
+    flex-shrink: 0;
+    font-size: 10px;
+    }
+
+
   /* NavBar */
 
   .navbar-container {
@@ -380,12 +421,37 @@
   /* Location */
 
   .location {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
   }
 
   .location-maps {
-    display: block;
+    max-width: 480px;
+    top: 0;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    height: 300px;
+  }
+
+  .location-maps img {
+    width: 284.87px;
+    height: 284.058px;
+  }
+
+  .location-title {
+    margin: 20px 0 0 50px;
+  }
+
+
+  .location-title h2 {
+    font-size: 20px;
+  }
+
+  .location-title p {
+    font-size: 12px;
   }
 
   /* Menu Section */
@@ -465,4 +531,74 @@
     width: 120px;
     height: 90px;
   }
+
+  /*Product*/
+    .product-container {
+    height: auto;
+    width: 100%;
+    max-width: 480px;
+    }
+
+  .product-wrapper {
+    display: block;
+  }
+
+  .product-image, .product-image img {
+    width: 279px;
+    height: 285px;
+    margin-top: 30px;
+  }
+
+  .product-detail {
+    margin: 40px 0 0 61px;
+  }
+
+  .product-detail h2 {
+    font-size: 20px;
+  }
+
+  .product-detail p {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .product-detail h3 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .product-description h2 {
+    font-size: 20px;
+  }
+
+  .product-rectangle {
+    width: 280px;
+    height: 1px;
+  }
+
+  .product-description {
+    margin-left: 61px;
+  }
+
+  .product-description p {
+    font-size: 12px;
+    margin-right: 130px;
+  }
+
+  .product-description button {
+    width: 135px;
+    height: 28px;
+    border-radius: 55px;
+    font-size: 10px;
+    margin: 20px 0 30px 0;
+    
+  }
+
+  .product-description button img {
+    padding-right: 5px;
+    width: 6px;
+    height: 7.096px;
+  }
+
+
 }
